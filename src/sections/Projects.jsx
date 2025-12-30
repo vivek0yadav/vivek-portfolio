@@ -8,7 +8,7 @@ const projects = [
     title: "E-commerce Shopping Website",
     desc: "Complete shopping site with cart, products, auth and payments.",
     tech: "React, Node, Express, MongoDB",
-    img: "/src/assets/project1.png",
+    img: "https://res.cloudinary.com/dbwu2tuzv/image/upload/v1767074393/wanderlust_WEB/p6lgzhohketf6ru4qphb.png",
     github: "https://github.com/vivek0yadav/website",
     live: "https://website-frontend-phi-seven.vercel.app/"
   },
@@ -17,7 +17,7 @@ const projects = [
     title: "Wanderlust Travel Website",
     desc: "Search & booking for trips with user dashboard.",
     tech: "React, Node, Express, MongoDB",
-    img: "/src/assets/project3.png",
+    img: "https://res.cloudinary.com/dbwu2tuzv/image/upload/v1767074287/wanderlust_WEB/wwqohfkm4omylfp3xdop.png",
     github: "https://github.com/vivek0yadav/Travelling-website",
     live: "https://travelling-website-1-nfpt.onrender.com"
   },
@@ -26,7 +26,7 @@ const projects = [
     title: "Health Care System",
     desc: "Doctor-patient booking & ML-assisted diagnostics.",
     tech: "React, Node, Express, MongoDB, Python(ML)",
-    img: "/src/assets/project2.png",
+    img: "https://res.cloudinary.com/dbwu2tuzv/image/upload/v1767074337/wanderlust_WEB/oigxiga8eu7dumf5z7rd.png",
     github: "#",
     live: "#"
   },
