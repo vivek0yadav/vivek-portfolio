@@ -1,0 +1,5 @@
+@import "tailwindcss";
+body {
+  @apply bg-linear-to-br from-[#0d0f23] to-[#121334] text-white;
+  font-family: Inter, sans-serif;
+}
