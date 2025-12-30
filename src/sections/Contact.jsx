@@ -9,14 +9,23 @@ export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
     setStatus("sending");
-    emailjs.sendForm('service_bt73oxh', 'template_5t0t4ls', formRef.current, 'fyHW9Rt2tHcqVERfP')
-      .then(() => {
+
+    emailjs.sendForm(
+      import.meta.env.VITE_EMAILJS_SERVICE_ID,
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+      formRef.current,
+      import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+    )
+    .then(
+      () => {
         setStatus("sent");
         formRef.current.reset();
-      }, (error) => {
+      },
+      (error) => {
         setStatus("error");
         console.error(error.text);
-      });
+      }
+    );
   };
 
   return (
