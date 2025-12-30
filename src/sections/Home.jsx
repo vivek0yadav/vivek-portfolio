@@ -67,7 +67,7 @@ export default function Home() {
                           border-8 border-gray-800/50 bg-gray-900 shadow-2xl shadow-purple-900/50 
                           transform transition duration-500 hover:scale-[1.02]">
               <img 
-                src="/src/assets/profile.png" 
+                src="https://res.cloudinary.com/dbwu2tuzv/image/upload/v1767072692/wanderlust_WEB/g65dl7sepk7o1p0ecsbi.png" 
                 alt="Vivek Yadav Profile" 
                 className="w-full h-full object-cover transform scale-[1.1]" 
               />
